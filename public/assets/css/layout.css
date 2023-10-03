@@ -1,0 +1,97 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 18%;
+    background: rgb(46, 46, 46);
+    overflow-y: scroll;
+    top: 0px;
+    bottom: 0px;
+}
+nav .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+nav .top a span{
+    margin-left: 5px;
+    color: white;
+}
+nav .top a .row .column img{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 10px
+}
+nav .top a .row .column h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+nav .top a .row .column h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+}
+nav .top span .line{
+    display: block;
+    width: 205px;
+    height: 1px;
+    background: white;
+}
+nav .bot .nav-links a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(145, 139, 139);
+    font-size: 15px
+}
+
+nav .bot .nav-links .row{
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(145, 139, 139);
+    font-size: 15px
+}
+
+nav .bot .nav-links .row .dropdown .dropdown-menu{
+    width: 220px;
+    background: rgb(46, 46, 46);
+    margin-left: 19px;
+    text-decoration: none;
+    color: rgb(145, 139, 139);
+    font-size: 15px
+}
+
+nav .bot .nav-links .row .dropdown .dropdown-menu a{
+    margin-left: 0;
+    padding-top: 0;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
+
+nav a span{
+    margin-left: 25px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #DCDCDC;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #999;
+}
+.col-content {
+    width: 81.5%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    border-radius: 20px; 
+    background-color: rgb(241, 227, 227); 
+    margin-top: 10px;               
+    margin-left: 18.5%;
+}

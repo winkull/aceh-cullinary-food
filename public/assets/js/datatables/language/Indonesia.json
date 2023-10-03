@@ -1,0 +1,17 @@
+{
+	"sProcessing":   "<div class='spinner spinner-track spinner-primary spinner-center spinner-lg m-5'></div> <br> Loading...",
+	"sLengthMenu":   "Tampilkan _MENU_ entri",
+	"sZeroRecords":  "Data belum tersedia",
+	"sInfo":         "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri",
+	"sInfoEmpty":    "Menampilkan 0 sampai 0 dari 0 entri",
+	"sInfoFiltered": "(disaring dari _MAX_ entri keseluruhan)",
+	"sInfoPostFix":  "",
+	"sSearch":       "Cari:",
+	"sUrl":          "",
+	"oPaginate": {
+		"sFirst":    "Pertama",
+		"sPrevious": "<span class='fad fa-angle-double-left'></span>",
+		"sNext":     "<span class='fad fa-angle-double-right'></span>",
+		"sLast":     "Terakhir"
+	}
+}
